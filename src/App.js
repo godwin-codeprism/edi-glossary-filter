@@ -50,7 +50,7 @@ class Glossary extends React.Component {
         this.setState({ glossaryData: Array.from(xmlDoc.querySelectorAll('term')) });
       }
     };
-    xhttp.open("GET", "glossary.xml", true);
+    xhttp.open("GET", "../../frame.xml", true);
     xhttp.send();
 
   }
